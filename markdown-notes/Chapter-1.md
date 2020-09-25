@@ -1,13 +1,13 @@
-# Lecture-1
+# Chapter-1
 
 [TOC]
 
-## Joint Type
+## 1 - Joint Type
 
 - Prismatic
 - Revolve
 
-## Robot Types
+## 2 - Robot Types
 
 ### Cartesian Robot
 
@@ -51,7 +51,7 @@
 - Work envelope: very complex
 - Applications: various
 
-## Drive System
+## 3 - Drive System
 
 - Electrical
   - Most popular
@@ -64,7 +64,7 @@
   - Easier to control
   - Adept one
   
-## Precision, Repeatability, Accuracy
+## 4 - Precision, Repeatability, Accuracy
 
 ### Precision
 
@@ -78,7 +78,7 @@ A measure of the ability of the robot to position the tool tip in the same place
 
 A measure of the ability of the robot to place the tool tip at an arbitrarily prescribed location
 
-## Degree of Freedoms
+## 5 - Degree of Freedoms
 
 position could be changed by prismatic joints and revolute joints
 
