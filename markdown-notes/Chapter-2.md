@@ -62,6 +62,35 @@ $$
 ^AP =\ ^A_BR\ ^BP
 $$
 
+#### Axis
+
+- X axis
+$$
+R_x(\theta)=\begin{bmatrix}
+    1&0&0\\[2ex]
+    0&\cos\theta&-\sin\theta\\[2ex]
+    0&\sin\theta&\cos\theta
+\end{bmatrix}
+$$
+
+- Y axis
+$$
+R_y(\theta)=\begin{bmatrix}
+    \cos\theta&0&\sin\theta\\[2ex]
+    0&1&0\\[2ex]
+    -\sin\theta&0&\cos\theta
+\end{bmatrix}
+$$
+
+- Z axis
+$$
+R_z(\theta)=\begin{bmatrix}
+    \cos\theta&-\sin\theta&0\\[2ex]
+    \sin\theta&\cos\theta&0\\[2ex]
+    0&0&1
+\end{bmatrix}
+$$
+
 ### General Frames
 
 according to the translation and rotation, the general transform could be written into
@@ -82,3 +111,8 @@ $$
     1
 \end{bmatrix}
 $$
+
+### Algorithm
+
+- if the tool frame is to be rotated or translated about the $k_{th}$ unit vector of the **reference frame**, then **pre-multiply** it by the general frames
+- if the tool frame is to be rotated or translated about **its own $k_{th}$ unit vector**, then **post-multiply** it by the general frame
